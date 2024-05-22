@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:testphotos.Usercontrols"
+             mc:Ignorable="d"
+             x:Class="testphotos.Usercontrols.CustomMapControl">
+    <Grid ColumnDefinitions="6*,2*" RowDefinitions="*,5*,1.2*" ShowGridLines="True">
+        <StackPanel Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <Canvas>
+                <local:CustomSvgButton Source="рисунок1.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="100" Canvas.Top="-362" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок2.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="269" Canvas.Top="-200" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок3.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="380" Canvas.Top="-407" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок4.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="447" Canvas.Top="-318" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок5.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="596" Canvas.Top="-306" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок6.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="74" Canvas.Top="-75" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок7.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="237" Canvas.Top="-219" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок8.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="300" Canvas.Top="-95" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок9.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="362" Canvas.Top="-125" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок10.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="467" Canvas.Top="-218" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок11.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="424" Canvas.Top="-102.3" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок12.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="542" Canvas.Top="-99" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок13.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="600" Canvas.Top="17" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок14.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="135" Canvas.Top="-38" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок15.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="413" Canvas.Top="60" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок16.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="501" Canvas.Top="95" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок17.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="558" Canvas.Top="8" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок18.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="632" Canvas.Top="212" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок19.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="410" Canvas.Top="158" Height="1100"/>
+                <local:CustomSvgButton Source="рисунок20.svg" HitTestPath="M 0,0 L 100,0 L 100,100 L 0,100 Z" Canvas.Left="559" Canvas.Top="232" Height="1100"/>
+            </Canvas>
+        </StackPanel>
+    </Grid>
+</UserControl>

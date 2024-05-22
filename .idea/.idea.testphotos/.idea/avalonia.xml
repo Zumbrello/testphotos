@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="testphotos/App.axaml" value="testphotos/testphotos.csproj" />
+        <entry key="testphotos/MainWindow.axaml" value="testphotos/testphotos.csproj" />
+        <entry key="testphotos/Usercontrols/CustomMapControl.axaml" value="testphotos/testphotos.csproj" />
+        <entry key="testphotos/Usercontrols/CustomSvgButton.axaml" value="testphotos/testphotos.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

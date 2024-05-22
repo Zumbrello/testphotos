@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.6" />
+        <PackageReference Include="Avalonia.Desktop" Version="11.0.6" />
+        <PackageReference Include="Avalonia.Svg.Skia" Version="11.0.0.18" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.6" />
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.6" />
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.6" />
+        <PackageReference Include="Svg.Skia" Version="1.0.0.18" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\рисунок1.svg" />
+      <AvaloniaResource Include="Assets\рисунок1.svg" />
+      <None Remove="Assets\рисунок2.svg" />
+      <AvaloniaResource Include="Assets\рисунок2.svg" />
+      <None Remove="Assets\рисунок3.svg" />
+      <AvaloniaResource Include="Assets\рисунок3.svg" />
+      <None Remove="Assets\рисунок4.svg" />
+      <AvaloniaResource Include="Assets\рисунок4.svg" />
+      <None Remove="Assets\рисунок5.svg" />
+      <AvaloniaResource Include="Assets\рисунок5.svg" />
+      <None Remove="Assets\рисунок6.svg" />
+      <AvaloniaResource Include="Assets\рисунок6.svg" />
+      <None Remove="Assets\рисунок7.svg" />
+      <AvaloniaResource Include="Assets\рисунок7.svg" />
+      <None Remove="Assets\рисунок8.svg" />
+      <AvaloniaResource Include="Assets\рисунок8.svg" />
+      <None Remove="Assets\рисунок9.svg" />
+      <AvaloniaResource Include="Assets\рисунок9.svg" />
+      <None Remove="Assets\рисунок10.svg" />
+      <AvaloniaResource Include="Assets\рисунок10.svg" />
+      <None Remove="Assets\рисунок11.svg" />
+      <AvaloniaResource Include="Assets\рисунок11.svg" />
+      <None Remove="Assets\рисунок12.svg" />
+      <AvaloniaResource Include="Assets\рисунок12.svg" />
+      <None Remove="Assets\рисунок13.svg" />
+      <AvaloniaResource Include="Assets\рисунок13.svg" />
+      <None Remove="Assets\рисунок15.svg" />
+      <AvaloniaResource Include="Assets\рисунок15.svg" />
+      <None Remove="Assets\рисунок16.svg" />
+      <AvaloniaResource Include="Assets\рисунок16.svg" />
+      <None Remove="Assets\рисунок17.svg" />
+      <AvaloniaResource Include="Assets\рисунок17.svg" />
+      <None Remove="Assets\рисунок18.svg" />
+      <AvaloniaResource Include="Assets\рисунок18.svg" />
+      <None Remove="Assets\рисунок19.svg" />
+      <AvaloniaResource Include="Assets\рисунок19.svg" />
+      <None Remove="Assets\рисунок20.svg" />
+      <AvaloniaResource Include="Assets\рисунок20.svg" />
+      <None Remove="Assets\рисунокк8.svg" />
+      <AvaloniaResource Include="Assets\рисунокк8.svg" />
+      <None Remove="Assets\рисунок14.svg" />
+      <AvaloniaResource Include="Assets\рисунок14.svg" />
+    </ItemGroup>
+</Project>
